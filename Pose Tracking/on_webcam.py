@@ -2,9 +2,6 @@
 import mediapipe as mp
 import cv2
 import numpy as np
-import matplotlib as plt
-import uuid
-import os
 
 # setting up drawing utilities
 mp_drawing = mp.solutions.drawing_utils
