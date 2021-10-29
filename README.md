@@ -9,3 +9,9 @@ When someone takes a video of themself running, they can pass it through the pro
 The joints are coordinates on a numpy array. The angles are calculated with trignometery after finding the length of the joints with the coordinates. 
 
 ![alt text](https://www.mathsisfun.com/algebra/images/adjacent-opposite-hypotenuse.svg)
+
+To do:
+- collect data from footage of professional athletes
+- figure out metric for calculating accuracy of running form
+- create a front-end user interface (app and website)
+- deploy on web, google play store, and app store (hopefully)
