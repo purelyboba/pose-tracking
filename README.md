@@ -1,17 +1,15 @@
 # Running Form
-This project will look at your running form using the Mediapipe library from Google. It takes pose landmarks and calculates angles of joints in relation to each other. 
+This project will look at your yoga pose in relation to an instruction video using the Mediapipe library from Google. It takes pose landmarks and calculates angles of joints in relation to each other. 
 
 ![alt text](https://google.github.io/mediapipe/images/mobile/pose_tracking_full_body_landmarks.png)
 
-Using this, the program can look at the form of professional athletes and calculate what the ideal running form is. 
-When someone takes a video of themself running, they can pass it through the program to see how good their running form is.
+Using this, a person can compare their yoga pose to that of an instruction video, and adjust accordingly.
 
 The joints are coordinates on a numpy array. The angles are calculated with trignometery after finding the length of the joints with the coordinates. 
 
 ![alt text](https://www.mathsisfun.com/algebra/images/adjacent-opposite-hypotenuse.svg)
 
 To do:
-- collect data from footage of professional athletes
-- figure out metric for calculating accuracy of running form
+- create system to analyze differences between your pose and that of video
 - create a front-end user interface (app and website)
 - deploy on web, google play store, and app store (hopefully)
